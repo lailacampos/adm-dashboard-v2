@@ -185,3 +185,11 @@ export default {
   },
 };
 </pre>
+
+---
+ <!--Utilidades: gerar árvore do projeto, etc:  -->
+<h2>🌳 Estrutura do Projeto</h2
+<p>Comando para gerar a árvore do projeto:</p>
+<pre>
+tree -I 'node_modules|\.yarn' -L 4 --dirsfirst > project_tree.txt
+</pre>
